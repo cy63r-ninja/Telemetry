@@ -96,6 +96,7 @@
 <h1> Rocket Telemetry Check</h1>
   <div>
   <form name="form" method="post" action="upload.php" enctype="multipart/form-data" >
+    <label>Upload New Telemetry File:  </label>
   <input type="file" name="my_file" /><br /><br />
   <input type="submit" name="submit" value="Submit New Telemetry Data File"/>
   </form>
