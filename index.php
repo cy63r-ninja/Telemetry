@@ -97,6 +97,7 @@
   <div>
   <form name="form" method="post" action="upload.php" enctype="multipart/form-data" >
     <label>Upload New Telemetry File:  </label>
+    <!-- Comments are useful, leaky aftifacts not so much!! JR-FLAG{AppSplash&choas} -->
   <input type="file" name="my_file" /><br /><br />
   <input type="submit" name="submit" value="Submit New Telemetry Data File"/>
   </form>
