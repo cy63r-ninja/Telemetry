@@ -1,7 +1,7 @@
 <?php
 if (($_FILES['my_file']['name']!="")){
 // Where the file is going to be stored
-	$target_dir = "/";
+	$target_dir = "~/";
 	$file = $_FILES['my_file']['name'];
 	$path = pathinfo($file);
 	$filename = $path['filename'];
